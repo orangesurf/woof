@@ -12,3 +12,7 @@ A self-custodial bitcoin wallet on [Ark](https://second.tech), in a single HTML 
 - Built on [`@secondts/bark`](https://www.npmjs.com/package/@secondts/bark), Second's official WASM SDK
 
 ⚠️ Beta software handling real bitcoin — keep amounts small. While Bark is in beta, the 12 words alone recover unspent incoming Ark payments only — funds from Lightning receives, boards, and change need the backup file too. Keep both: write down the words, keep the backup file current (the wallet shows a "backup needed" badge when it's stale).
+
+## No warranty, no liability
+
+This software is provided **as-is, without warranty of any kind**, express or implied. In no event shall the authors be liable for any claim, damages, or other liability — including loss of funds — arising from its use. You are solely responsible for your keys, your backups, and your bitcoin. See [LICENSE](LICENSE).
