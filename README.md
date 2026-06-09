@@ -10,4 +10,4 @@ A self-custodial bitcoin wallet on [Ark](https://second.tech), in a single HTML 
 - Optional password encrypts your recovery phrase at rest
 - Built on [`@secondts/bark`](https://www.npmjs.com/package/@secondts/bark), Second's official WASM SDK
 
-⚠️ Beta software handling real bitcoin — keep amounts small. Your wallet lives in this browser profile; the 12-word recovery phrase is the only backup.
+⚠️ Beta software handling real bitcoin — keep amounts small. Your wallet lives in this browser profile. Write down the 12-word recovery phrase, but know that while Bark is in beta, seed restore recovers unspent incoming Ark payments only — not yet funds from Lightning receives or boards — so don't clear this browser's data while holding funds.
